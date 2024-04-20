@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hasilActivity"
+    android:background="#ffffff">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!--gambar-->
+            <ImageView
+                android:id="@+id/bg"
+                android:layout_width="400dp"
+                android:layout_height="240dp"
+                android:layout_gravity="center_horizontal"
+                android:scaleType="fitStart"
+                android:src="@drawable/bg3" />
+
+            <!--judul-->
+            <TextView
+                android:id="@+id/hjdl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:text="DATA PENDUDUK"
+                android:textColor="#000000"
+
+                android:textSize="25dp" />
+
+            <!--nik-->
+            <TextView
+                android:id="@+id/hnik"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/hjdl"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:text=""
+                android:layout_gravity="center_horizontal"
+                android:textColor="#000000" />
+
+            <!--nama-->
+            <TextView
+                android:id="@+id/hnm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/hnik"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:text=""
+                android:layout_gravity="center_horizontal"
+                android:textColor="#000000" />
+
+            <!--Jenis Kelamin-->
+            <TextView
+                android:id="@+id/hjkl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/hnm"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:text=""
+                android:layout_gravity="center_horizontal"
+                android:textColor="#000000" />
+
+            <!--ttl-->
+            <TextView
+                android:id="@+id/httl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/hjkl"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:text=""
+                android:layout_gravity="center_horizontal"
+                android:textColor="#000000" />
+
+
+            <!--alamat-->
+            <TextView
+                android:id="@+id/halm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/httl"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:text=""
+                android:layout_gravity="center_horizontal"
+                android:textColor="#000000" />
+
+            <!--Email-->
+            <TextView
+                android:id="@+id/heml"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/halm"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:text=""
+                android:layout_gravity="center_horizontal"
+                android:textColor="#000000" />
+
+            <!--Telepon-->
+            <TextView
+                android:id="@+id/htlp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/heml"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:text=""
+                android:layout_gravity="center_horizontal"
+                android:textColor="#000000" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
